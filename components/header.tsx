@@ -5,6 +5,7 @@ import { ShoppingCart, Search, Menu, X, Pizza } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { useCart } from "@/components/cart-provider"
+import Link from "next/link"
 
 interface HeaderProps {
   toggleCart: () => void
@@ -28,12 +29,12 @@ export function Header({ toggleCart, searchQuery, setSearchQuery }: HeaderProps)
             <button className="md:hidden mr-3" onClick={() => setIsMenuOpen(!isMenuOpen)}>
               {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
-            <div className="flex items-center">
+            <Link href="/" className="flex items-center">
               <Pizza className="h-8 w-8 text-rose-600 mr-2" />
               {/* Responsive text - different on mobile vs desktop */}
               <h1 className="text-xl font-bold text-rose-600 hidden sm:block">Projeto Pizzaria</h1>
               <h1 className="text-xl font-bold text-rose-600 sm:hidden">Projeto</h1>
-            </div>
+            </Link>
           </div>
 
           {/* Search Bar - Hidden on mobile, visible on larger screens */}
@@ -79,9 +80,14 @@ export function Header({ toggleCart, searchQuery, setSearchQuery }: HeaderProps)
             <nav>
               <ul className="space-y-2">
                 <li>
-                  <a href="#" className="block px-4 py-2 text-rose-600 hover:bg-rose-50 rounded-md">
+                  <Link href="/" className="block px-4 py-2 text-rose-600 hover:bg-rose-50 rounded-md">
                     Início
-                  </a>
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/cardapio" className="block px-4 py-2 text-gray-700 hover:bg-rose-50 rounded-md">
+                    Cardápio
+                  </Link>
                 </li>
                 <li>
                   <a href="#" className="block px-4 py-2 text-gray-700 hover:bg-rose-50 rounded-md">
