@@ -31,27 +31,6 @@ public/ – Imagens e recursos públicos.
 
 styles/ – Estilos globais utilizando Tailwind CSS.
 
-🎨 Protótipo de Telas
-O layout e fluxo de telas foram planejados previamente em Figma.
-
-🔗 Acesse o Protótipo no Figma
-https://www.figma.com/design/K4AtvZcnmrkaSV988IdYrk/Projeto-Pizzaria----Desenvolvimento-de-Sistemas-Web?node-id=0-1&t=yzt2ePJBKkPkSLWe-1
-
-🗓️ Cronograma de Desenvolvimento
-
-Etapa	Data de Início	Data de Entrega
-Prototipagem Figma	23/04/2025	23/04/2025
-Desenvolvimento Frontend	23/04/2025	24/04/2025
-Ajustes e Testes	24/04/2025	24/04/2025
-⚡ Melhorias Futuras
-Implementação de login e cadastro de usuários.
-
-Histórico de pedidos.
-
-Integração com sistema de pagamento online.
-
-Painel administrativo para gerenciar produtos.
-
 👩‍💻 Autora
 Amanda Bezerra
 Estudante de Ciência da Computação - UNEMAT
