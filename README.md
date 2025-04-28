@@ -30,6 +30,11 @@ components/ – Componentes reutilizáveis como cabeçalho, rodapé e listagem d
 public/ – Imagens e recursos públicos.
 
 styles/ – Estilos globais utilizando Tailwind CSS.
+-------------------------------------------------------
+
+Diagrama https://www.mermaidchart.com/raw/c484dc0c-ea8b-4492-8c3c-8e8feeeb91b0?theme=light&version=v0.1&format=svg
+
+------------------------------------------------------
 
 👩‍💻 Autora
 Amanda Bezerra
